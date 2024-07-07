@@ -1,0 +1,16 @@
+{
+  "name": "using-split-chunks-plugin",
+  "scripts": {
+    "build": "NODE_OPTIONS=--openssl-legacy-provider webpack",
+    "build:big": "NODE_OPTIONS=--openssl-legacy-provider webpack --config webpack.not-optimized.config.js"
+  },
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "lodash-es": "^4.17.21"
+  }
+}
